@@ -44,7 +44,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2AA198</string>
+				<string>#41FFF0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -185,7 +185,7 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character, constant.other, entity.name.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -198,7 +198,10 @@
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#42C0BC</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -206,7 +209,12 @@
 			<key>scope</key>
 			<string>variable.parameter</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9C42A2</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -376,7 +384,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>		
+				<string></string>
 				<key>foreground</key>
 				<string>#536871</string>
 			</dict>
@@ -470,10 +478,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#268BD2</string>
 			</dict>
 		</dict>
@@ -496,10 +504,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#268BD2</string>
 			</dict>
 		</dict>
@@ -605,7 +613,7 @@
 				<key>foreground</key>
 				<string>#899090</string>
 			</dict>
-    	</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>HTML: Comment Block</string>
@@ -619,7 +627,7 @@
 				<string>#839496</string>
 			</dict>
 		</dict>
-    	<dict>
+		<dict>
 			<key>name</key>
 			<string>HTML: Script</string>
 			<key>scope</key>
